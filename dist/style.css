@@ -1,0 +1,194 @@
+body {
+  background-color:rgb(255, 255, 255);
+  height: 150vh;  
+  margin: 0px;
+  overflow: hidden;
+}
+
+#gallery {
+  height: 180vmax;
+  width: 180vmax;  
+  position: absolute;
+}
+
+#logo {
+  margin: 10px auto;
+  vertical-align: middle;
+  display: flex;
+  justify-content: center;
+  height: 9%;
+  width: 150px;
+  padding-top: 33.5%;
+  padding-left: 15%;
+}
+
+#contact {
+  margin-top: 1%;
+  margin-left: 50%;
+  background-color:rgb(160, 186, 220);
+  cursor: pointer;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  box-shadow: 0rem 0rem 4rem rgba(0,0,0, 18%);
+  right: 50%;
+  top: 40%;
+  transition: transform;
+  transition-timing-function: ease;
+  transition-duration: 400ms;
+}
+
+#contact:hover {
+  transform: scale(1.30);
+}
+
+#contact:active {
+  transform: scale(0.8);
+}
+
+#contact > i > img{
+  max-width: 50%;
+  max-height: 50%;
+}
+
+#instagram {
+  margin-top: 1%;
+  margin-left: 50%;
+  background-color:rgb(160, 186, 220);
+  cursor: pointer;
+  height: 7rem;
+  width: 7rem;
+  position: fixed;
+  border: none;
+  border-radius: 5rem;
+  outline: none;
+  box-shadow: 0rem 0rem 4rem rgba(0,0,0, 18%);
+  right: 34%;
+  top: 40%;
+  transition: transform;
+  transition-timing-function: ease;
+  transition-duration: 400ms;
+}
+
+#instagram:hover {
+  transform: scale(1.30);
+}
+
+#instagram:active {
+  transform: scale(0.8);
+}
+
+#instagram > i > img{
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.tile {
+  border-radius: 1vmax;
+  position: absolute;
+  transition: transform 800ms ease;
+}
+
+.tile:hover {
+  transform: scale(1.1);
+}
+
+.tile:hover > img {
+  opacity: 1;
+  transform: scale(1.01);
+}
+
+.tile > img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+  opacity: 0;
+  transition: opacity 800ms ease,
+    transform 800ms ease;
+}
+
+.tile:nth-child(1) {
+  background-color: rgb(255, 174, 81);
+  height: 20%;
+  width: 20%;
+  left: 10%;
+  top: 7%;
+}
+
+.tile:nth-child(2) {
+  background-color: rgb(33, 144, 255);
+  height: 24%;
+  width: 16%;
+  left: 42%;
+  top: 9%;
+}
+
+.tile:nth-child(3) {
+  background-color: rgb(111, 228, 206);
+  height: 25%;
+  width: 16%;
+  left: 7%;
+  top: 30%;
+}
+
+.tile:nth-child(4) {
+  background-color: rgb(197, 197, 115);
+  height: 14%;
+  width: 10%;
+  left: 51%;
+  top: 47%;
+}
+
+.tile:nth-child(5) {
+  background-color: rgb(255, 174, 170);
+  height: 27%;
+  width: 23%;
+  left: 15%;
+  top: 68%;
+}
+
+.tile:nth-child(6) {
+  background-color: rgb(255, 176, 58);
+  height: 20%;
+  width: 13%;
+  left: 68%;
+  top: 12%;
+}
+
+.tile:nth-child(7) {
+  background-color: rgb(247, 21, 24);
+  height: 26%;
+  width: 19%;
+  left: 45%;
+  top: 63%;
+}
+
+.tile:nth-child(8) {
+  background-color: rgb(214, 188, 94);
+  height: 20%;
+  width: 20%;
+  left: 71%;
+  top: 40%;
+}
+
+.tile:nth-child(9) {
+  background-color: rgb(236, 110, 171);
+  height: 27%;
+  width: 19%;
+  left: 67%;
+  top: 64%;
+}
+
+.tile:nth-child(10) {
+  background-color: rgb(129, 168, 236);
+  height: 22%;
+  width: 14%;
+  left: 27%;
+  top: 43%;
+}
+
+
